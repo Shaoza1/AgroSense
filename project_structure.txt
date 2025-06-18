@@ -1,0 +1,122 @@
+📄  .env
+📁 .vscode/
+    📄 settings.json
+📁 agrosense/
+    📄 .env
+    📄 .gitignore
+    📁 .vscode/
+        📄 extensions.json
+        📄 settings.json
+    📄 README.md
+    📁 components/
+        📄 Button.tsx
+    📄 deno.json
+    📄 dev.ts
+    📄 fresh.config.ts
+    📄 fresh.gen.ts
+    📁 islands/
+        📄 Counter.tsx
+    📄 main.ts
+    📁 routes/
+        📄 _404.tsx
+        📄 _app.tsx
+        📁 api/
+            📄 joke.ts
+            📄 weather.ts
+        📁 greet/
+            📄 [name].tsx
+        📄 index.tsx
+    📁 static/
+        📄 favicon.ico
+        📄 logo.svg
+        📄 styles.css
+📁 client/
+    📄 .env.local
+    📄 .gitignore
+    📄 README.md
+    📄 eslint.config.js
+    📄 index.html
+    📄 package-lock.json
+    📄 package.json
+    📄 postcss.config.cjs
+    📁 public/
+        📄 favicon.svg
+        📁 icons/
+            📄 pwa-192x192.png
+            📄 pwa-72x72.png
+        📄 sw-register.js
+        📄 sw.js
+    📁 src/
+        📄 App.css
+        📄 App.tsx
+        📁 api/
+            📄 weatherService.ts
+        📁 assets/
+            📄 react.svg
+        📁 components/
+            📄 AddCropHealthReportModal.tsx
+            📄 AddFarmModal.tsx
+            📄 AddPestWeatherAlertModal.tsx
+            📄 AuthModal.tsx
+            📄 CropHealthReportCard.tsx
+            📄 EditCropHealthReportModal.tsx
+            📄 EditFarmModal.tsx
+            📄 FeatureCard.tsx
+            📄 Footer.tsx
+            📄 Header.tsx
+            📄 OnlineStatusModal.tsx
+            📄 PestWeatherAlertsList.tsx
+            📄 RecommendationsList.tsx
+            📄 SendNotification.tsx
+            📄 StatCard.tsx
+            📄 WeatherCard.tsx
+        📄 index.css
+        📁 lib/
+            📄 supabaseClient.ts
+        📄 main.tsx
+        📁 pages/
+            📄 Advisor.tsx
+            📄 CropHealth.tsx
+            📄 Dashboard.tsx
+            📄 FarmDetail.tsx
+            📄 NotFound.tsx
+            📄 SendNotification.tsx
+            📄 Weather.tsx
+        📁 types/
+        📁 utils/
+            📄 notifications.ts
+        📄 vite-env.d.ts
+    📁 supabase/
+        📁 .temp/
+        📁 functions/
+    📄 tailwind.config.js
+    📄 tsconfig.app.json
+    📄 tsconfig.json
+    📄 tsconfig.node.json
+    📄 vite.config.ts
+📄 deno.json
+📄 deno.lock
+📄 generate_project_structure.py
+📄 import_map.json
+📄 package-lock.json
+📄 package.json
+📁 supabase/
+    📁 .temp/
+        📄 cli-latest
+        📄 gotrue-version
+        📄 pooler-url
+        📄 postgres-version
+        📄 project-ref
+        📄 rest-version
+        📄 storage-version
+    📁 functions/
+        📁 sendCriticalAlertEmail/
+            📄 index.ts
+        📁 sendPushNotifications/
+            📄 index.ts
+📄 update-user-metadata.js
+📁 worker/
+    📄 .env
+    📄 package-lock.json
+    📄 package.json
+    📄 send-push.js
