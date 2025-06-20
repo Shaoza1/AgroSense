@@ -69,7 +69,6 @@
             📄 RecommendationsList.tsx
             📄 SendNotification.tsx
             📄 StatCard.tsx
-            📄 WeatherCard.tsx
         📄 index.css
         📁 lib/
             📄 supabaseClient.ts
@@ -85,6 +84,7 @@
         📁 types/
         📁 utils/
             📄 notifications.ts
+            📄 tfPredict.ts
         📄 vite-env.d.ts
     📁 supabase/
         📁 .temp/
