@@ -44,6 +44,11 @@
         📁 icons/
             📄 pwa-192x192.png
             📄 pwa-72x72.png
+        📁 models/
+            📁 plant-disease/
+                📄 metadata.json
+                📄 model.json
+                📄 weights.bin
         📄 sw-register.js
         📄 sw.js
     📁 src/
@@ -54,21 +59,31 @@
         📁 assets/
             📄 react.svg
         📁 components/
+            📄 AIAdvisorChat.tsx
             📄 AddCropHealthReportModal.tsx
             📄 AddFarmModal.tsx
             📄 AddPestWeatherAlertModal.tsx
             📄 AuthModal.tsx
+            📄 CropAnalysisHistoryModal.tsx
+            📄 CropAnalysisModal.tsx
             📄 CropHealthReportCard.tsx
             📄 EditCropHealthReportModal.tsx
             📄 EditFarmModal.tsx
             📄 FeatureCard.tsx
+            📄 FertilizerPlannerPanel.tsx
             📄 Footer.tsx
             📄 Header.tsx
+            📄 IrrigationPanel.tsx
+            📄 MarketInfoPanel.tsx
             📄 OnlineStatusModal.tsx
             📄 PestWeatherAlertsList.tsx
             📄 RecommendationsList.tsx
             📄 SendNotification.tsx
+            📄 SoilManagementPanel.tsx
             📄 StatCard.tsx
+            📄 TaskPlannerPanel.tsx
+            📄 WeatherPanel.tsx
+            📄 YieldForecastPanel.tsx
         📄 index.css
         📁 lib/
             📄 supabaseClient.ts
@@ -100,6 +115,20 @@
 📄 import_map.json
 📄 package-lock.json
 📄 package.json
+📁 server/
+    📄 .env
+    📁 api/
+        📄 ai-advisor.ts
+        📄 fertilizer-recs.ts
+        📄 market-prices.ts
+        📄 soil-moisture.ts
+        📄 soil-readings.ts
+        📄 tasks.ts
+        📄 yield-forecast.ts
+    📁 data/
+        📄 PP_E_All_Data.csv.zip
+    📄 index.ts
+    📄 tsconfig.json
 📁 supabase/
     📁 .temp/
         📄 cli-latest
